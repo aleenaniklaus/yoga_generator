@@ -1,13 +1,19 @@
 import React from 'react'
 
-function Header() {
-    return (
-        <header>
-            <div id="mainSetting">
-                Refresh
-            </div>	
-        </header>
-    )
+class Header extends React.Component {
+    constructor() {
+        super() 
+    }
+    
+    render() {
+        return (
+            <header>
+                <div id="main-content">
+                    <h2>Yogarator</h2>
+                </div>	
+            </header>
+        )
+    }
 }
 
 export default Header

@@ -1,11 +1,20 @@
 import React from 'react'
 
-function Footer() {
-    return (    
-        <footer id="footerSetting">
-	        yogaGenerator 2019
-        </footer>
-    )
+class Footer extends React.Component {
+    constructor() {
+        super()
+        this.state = {
+            year: 2019
+        }
+    }
+
+    render() {
+        return (
+            <footer id="footer">
+                yogaGenerator {this.state.year}
+            </footer>
+        )
+    }
 }
 
 export default Footer

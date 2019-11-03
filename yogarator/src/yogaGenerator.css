@@ -1,13 +1,14 @@
-#mainSetting {
+#main-content {
   /* min-height: 56px; */
   background-color: rgb(178, 241, 231);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   position: relative;
   padding: 5mm;
   color: rgb(72, 65, 110)
 }
 
-#footerSetting {
+#footer {
   text-align: center;
   padding: 5mm;
   background-color: rgb(255, 254, 197);
