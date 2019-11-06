@@ -11,6 +11,7 @@ Front end:
 - React
 - HTML/CSS
 - JavaScript/ES6
+
 Local Backend package from Facebook used:
 https://github.com/facebook/create-react-app
 (Repo to easily start your React app without the
