@@ -1,21 +1,21 @@
-# yoga_generator
+# Random Yoga Generator
 Passion project to learn fullstack development. 
-Inspired by the fact that traditional computer 
-science educations like the one I got in my 
-bachelor's didn't quite prepare me with skills 
-Silicon Valley is looking for in a SWE. Most
-of these technologies are new to me, feel free to 
-open a ticket or message me if you see something 
-that could be improved on.
+Inspired by Silicon Valley's tough and narrow scope
+when looking for specific skills in SWE. 
+This project focuses mainly on React, and frontend
+ development. Most of these technologies are new to me, 
+ so feel free to open a PR or message me if you see something 
+that could be improved on. I am always happy to collaborate!
 
 Front end:
-- JavaScript/ES6
 - React
+- HTML/CSS
+- JavaScript/ES6
+Local Backend package from Facebook used:
+https://github.com/facebook/create-react-app
+(Repo to easily start your React app without the
+hassle of downloading Babbel, webpack, etc.)
 
-Back end:
+Back end (optional-included):
 - Node/Express
 - PostgreSQL
-
-Repo to easily start your React app without the
-hassle of downloading Babbel, webpack, etc.
-https://github.com/facebook/create-react-app
