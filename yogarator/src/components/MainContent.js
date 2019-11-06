@@ -1,31 +1,27 @@
 import React from 'react'
 
+
 class MainContent extends React.Component {
     constructor() {
         super()
         this.state = {
             submitted: false
         }
+        this.handleChange = this.handleChange.bind(this)
     }
 
     handleChange() {
         this.setState(prevState => {
             return {
-                submitted: true
+                submitted: !prevState.submitted
             }
         })
     }
 
     render() {
         return (
-            <div id="main-content">
-                <form>
-                    Focus: <input type="text" name="focus" /><br />
-                    Level: <input type="text" name="level" /><br />
-                    Duration: <input type="text" name="duration" /><br />
-                    Peak Pose: <input type="text" name="peak" /><br />
-                    <input type="submit" value="Submit" onClick={this.handleChange}></input>
-                </form>
+            <div class="main-content"> 
+                <button onClick={this.state.handleChange}>Random</button>
             </div>
         )
     

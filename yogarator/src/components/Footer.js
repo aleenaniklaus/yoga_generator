@@ -1,17 +1,19 @@
 import React from 'react'
+import Moment from 'react-moment'
 
 class Footer extends React.Component {
     constructor() {
         super()
         this.state = {
-            year: 2019
+            year: ""
         }
     }
 
     render() {
+        const date = new Date()
         return (
-            <footer id="footer">
-                yogaGenerator {this.state.year}
+            <footer class="main-content footer">
+                yogaGenerator <Moment format="YYYY">{date}</Moment>
             </footer>
         )
     }
