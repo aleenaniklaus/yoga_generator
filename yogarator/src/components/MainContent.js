@@ -1,31 +1,13 @@
 import React from 'react'
+import YogaGenerator from "./YogaGenerator"
 
 
-class MainContent extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            submitted: false
-        }
-        this.handleChange = this.handleChange.bind(this)
-    }
-
-    handleChange() {
-        this.setState(prevState => {
-            return {
-                submitted: !prevState.submitted
-            }
-        })
-    }
-
-    render() {
-        return (
-            <div class="main-content"> 
-                <button onClick={this.state.handleChange}>Random</button>
-            </div>
-        )
-    
-    }
+function MainContent() {
+    return (
+        <div class="main-content"> 
+            <YogaGenerator />
+        </div>
+    )
 }
 
 export default MainContent
