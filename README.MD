@@ -7,6 +7,10 @@ This project focuses mainly on React, and frontend
  so feel free to open a PR or message me if you see something 
 that could be improved on. I am always happy to collaborate!
 
+ 
+![](homeScreen.png "yogaGenerator App")
+
+
 Front end:
 - React
 - HTML/CSS
