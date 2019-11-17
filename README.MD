@@ -20,7 +20,3 @@ Local Backend package from Facebook used:
 https://github.com/facebook/create-react-app
 (Repo to easily start your React app without the
 hassle of downloading Babbel, webpack, etc.)
-
-Back end (optional-included):
-- Node/Express
-- PostgreSQL
