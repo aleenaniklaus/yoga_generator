@@ -1,7 +1,7 @@
 # Random Yoga Generator
 Passion project to learn fullstack development. 
-Inspired by Silicon Valley's tough and narrow scope
-when looking for specific skills in SWE. 
+Inspired by React's capabilities to turn React App
+into native mobile app for iOS and Android. 
 This project focuses mainly on React, and frontend
  development. Most of these technologies are new to me, 
  so feel free to open a PR or message me if you see something 
