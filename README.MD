@@ -8,7 +8,7 @@ This project focuses mainly on React, and frontend
 that could be improved on. I am always happy to collaborate!
 
  
-![Home screen](yogagen/imgs/homeScreen.png)
+![Home screen](yogagen/imgs/homespage2.png)
 
 
 Front end:

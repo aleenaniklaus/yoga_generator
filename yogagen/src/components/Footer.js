@@ -4,7 +4,7 @@ import Moment from 'react-moment'
 function Footer() {
     const date = new Date()
     return (
-        <footer className="main-content footer">
+        <footer>
             yogaGenerator App <Moment format="YYYY">{date}</Moment>
         </footer>
     )

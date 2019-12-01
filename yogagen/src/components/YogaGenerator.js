@@ -27,9 +27,10 @@ class YogaGenerator extends React.Component {
 
     render() {
         return (
-            <div className="video">
-                <ReactPlayer url={this.state.url} />
-                <br />
+            <div className="main-content">
+                <div className="video">
+                    <ReactPlayer url={this.state.url} />
+                </div>
                 <button onClick={this.handleSubmit}>Random</button>
             </div>
         )

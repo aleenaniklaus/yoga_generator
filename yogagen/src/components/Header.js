@@ -13,7 +13,7 @@ class Header extends React.Component {
     render() {
         const date = new Date()
         return (
-            <header className="header main-content">
+            <header>
                 <Moment format='MMMM Do'>{date}</Moment>
                 <h2>Yogarator</h2>
             </header>
